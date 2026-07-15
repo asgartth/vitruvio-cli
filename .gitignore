@@ -1,0 +1,16 @@
+# binários compilados — compile na máquina (go build)
+/vitruvio
+/vitruvio.exe
+vitruvio
+vitruvio.exe
+
+# runtime do workspace (sessões, memória, usage, agentes/skills locais)
+.vitruvio/
+
+# modelos e artefatos grandes
+*.gguf
+*.bin
+
+# SO
+.DS_Store
+Thumbs.db
